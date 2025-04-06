@@ -42,7 +42,7 @@
         vizElement1.parentNode.insertBefore(scriptElement1, vizElement1);
     </script>
     <br>
-    <h1>WRITE UP:</h1>
+    <h1>WRITE UP FOR WHITEHAT:</h1>
     <br>
     <p> I used census data for this visualization. It gives me three important statistics: the total population, the
         average level of education, and the average median income for each county within the major cities. My goal was
@@ -104,6 +104,32 @@
         scriptElement2.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
         vizElement2.parentNode.insertBefore(scriptElement2, vizElement2);
     </script>
+
+    <br>
+    <h1>WRITE UP FOR WHITEHAT:</h1>
+    <br>
+    <p>This visualization shows the demographic percentage of each race in each city. Despite this graph showing a clear
+        visual message of the demographics in each city, there are very few elements that can lead to a misleading
+        message. </p>
+
+       <p> The first such misleading technique that is used is the filtering of data. Some of the races present are less
+        than 1% a part of the total population of each city. Therefore, I have filtered the data by adjusting the start
+        of the Y-axis so that it does not show the bar of the races that are below that certain threshold. From the
+        visual, you can see that those bars do not exist. This can be misleading as for simple viewers it gives the idea
+        that those races do not exist at all in the city with just 4 big races making up the majority of the
+        population. </p>
+
+       <p> Another technique that can be misleading is the title. The title “Dominant Races by City” suggests
+        visualizations that show empowering races in each city. Although this can bring the attention of the viewer when
+        they first view the graph, it can be misleading as it just showcases which races are mostly present in each city
+        with some being left out. This can also bring the idea of a lack of diversity even though there is a very small
+        percentage of certain races that are not shown in the graph.</p>
+
+       <p> Aside from the misleading information, one of the biggest features that is included, which is a big part of the
+        entirety of the graph, was the calculation of race percentage. With just raw numbers being present, the
+        percentage of each race per city was calculated which helped in creating the above graphs with accuracy.
+        Similarly, a legend with each race being color coordinated is present as this helps each race stand out from
+        each other allowing you to see each data. </p>
 </body>
 
 </html>
